@@ -130,8 +130,8 @@ transform: scale(1.1);
 /*Inicia la seccion de noticias*/
 .noticias
 {
-	background: #898787;
-	color: black;
+	background: #ee4382;
+	color: #000;
 }
 .noticias .item .titulo_item
 {
