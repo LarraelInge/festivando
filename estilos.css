@@ -1,40 +1,38 @@
 body
 {
 	background: #FAFAFA;
-	color: #eee;
 	font-family: arial;
 	font-size: 16px;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-h1
-{
-	color:black;
-	font-family: algerian;
-	font-size: 3em;
-	margin: 0;
-	text-align: left;
-	text-shadow:#ccc 5px 5px 11px;
 }
 header
 {
-	background-color: #fff;
-	background-image: url(img/Logo.png);
-	background-repeat: no-repeat;
-	background-position: 95%;
-	background-size: 200px 100px;
-	font-family: algerian;
-	margin: 0;
-	padding: 0.5em 0;
-	width: 100%;
 	
+	overflow: hidden;
+	position: relative;
+}
+
+header h1
+{
+	font-family: Algerian;
+	font-size: 3em;
+	font-weight: normal;
+	margin: 0.5em 0 0.4em 2.5em;
+	padding-right: 2em;
+}
+header #logo img
+{
+	
+	position: absolute;
+	left: 0.1em;
+	top: 0;
+	width: 125px;
 }
 nav
 {
 	background: #123;
 	margin: 0;
 	padding: 0.3em 0;
+	text-align: center;
 }
 nav ul
 { 
@@ -64,37 +62,42 @@ nav ul li a:hover
 	transform: scale(1.1);
 }
 /*Aca inicia el area de circulos los circulos*/
-.circulos
+.secciones
+{
+	background: #111;
+	margin-bottom: 0;
+	padding-top: 1em;
+	text-align: center;
+}
+.secciones div
 {
 	background: #bbb;
 	border: 0.5px solid black;
 	border-radius: 100%;
-	box-shadow: #eee 0.1px 0.1px 10px;
 	display: inline-block;
 	height: 210px;
 	margin: 0;
-	padding: 0.2em 0;
+	padding: 0;
+	text-align: center;
 	width: 210px;
 }
-.circulos:hover
+.secciones a div:hover
 {
-transform: scale(1.1);
+	box-shadow: #eee 0.1px 0.1px 10px;
+	transform: scale(1.1);
 }
 
-.circulos p
+.secciones a div
 {
 	color: black;
-	font-size: 2em;
-	margin-top: 2.8em;
-	position: relative;
-	text-align: center;
+		
 }
-.secciones
+.secciones a div p 
 {
-	background: #111;
-	margin: 0;
-	padding: 1em 0;
+	font-size: 2em;
+	margin-top: 2.6em;
 }
+
 #Decoracion
 {
 	background: #03C9F6;
@@ -133,32 +136,9 @@ transform: scale(1.1);
 	background: #ee4382;
 	color: #000;
 	font-family: arial;
+	margin-top: 0; 
 }
-.noticias .item .titulo_item
+.noticias article
 {
-	font-size: 1.5em;
-	font-style: italic;
-	margin-bottom: 0;
-	padding:  0 0;
-	text-align: left;
-}
-.noticias .item .titulo_item a
-{
-	color: black;
-	text-align: left;
-	text-decoration: none;
-}
-.noticias .item .imagen_item
-{
-	float: left;
-	margin-right: 1em;
-}
-.noticias .item .imagen_item img
-{
-	width: 96px;
-}
-.noticias .item .imagen_item img #CampeonatoM
-{
-	height: 300px;
-	width: 450px;
+	
 }
