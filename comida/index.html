@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Festivando</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="css/estilosca.css">
+    <link href="css/least.min.css" rel="stylesheet"/>
+    <script src="../prefixfree.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js" defer="defer"></script>
+    <script src="js/least.min.js" defer="defer"></script>
+    <script src="js/jquery.lazyload.js" defer="defer"></script>
+</head>
+<body>
+    <header>
+        <figure id="logo">
+            <img src="../img/Logo.png" />
+        </figure>
+        <h1>
+            <a href="index.html">Festivando</a>
+        </h1>
+    </header>
+<!--Barra de navegacion-->
+    <nav>
+        <ul>
+            <li><a href="#">Decoracion</a></li>
+            <li><a href="comida/index.html">Cathering</a></li>
+            <li><a href="#">Sonido</a></li>
+            <li><a href="#">Licores</a></li>
+            <li><a href="#">Salones</a></li>
+            <li><a href="#">Eventos</a></li>
+        </ul>
+    </nav>
+<!--Galeria de imagenes-->
+<section>
+    <ul id="gallery">
+        <li id="fullPreview"></li>
+        
+        <li>
+            <a href="img/effects/plato.jpg"></a>
+            <img data-original="img/effects/plato1.jpg" src="img/effects/white.gif" width="240" height="150" alt="Ocean" />
+            
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li>
+                        <h2>
+                            Nombre del plato
+                        </h2>
+                    </li>
+                    <li>
+                        <p>
+                            Descripcion del plato y valor
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="projectInfo">
+                <strong>
+                    Day, Month, Year:
+                </strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            </div>
+        </li>
+        <li>
+            <a href="img/effects/plato3.jpg"></a>
+            <img data-original="img/effects/plato2.jpg" src="img/effects/white.gif" width="240" height="150" alt="Ocean" />
+            
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li>
+                        <h2>
+                            Nombre del plato
+                        </h2>
+                    </li>
+                    <li>
+                        <p>
+                            Descripcion del plato y valor
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="projectInfo">
+                <strong>
+                    Day, Month, Year:
+                </strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            </div>
+        </li>
+    </ul>
+</section>
+<script>
+$(document).ready(function(){
+    $('#gallery').least();
+});
+</script>
+</body>
+</html>

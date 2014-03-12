@@ -1,0 +1,72 @@
+body
+{
+	background: #D4D7DF;
+	font-family: arial;
+	font-size: 16px;
+}
+header
+{
+	overflow: hidden;
+	position: relative;
+}
+
+header h1 a
+{
+	color: black;
+	font-family: Algerian;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0.5em 0 0.4em 2.7em;
+	padding-right: 2em;
+	text-decoration: none;
+}
+
+header #logo img
+{
+	
+	position: absolute;
+	left: 0.1em;
+	top: 0;
+	width: 125px;
+}
+nav
+{
+	background: #123;
+	margin: 0;
+	padding: 0.3em 0;
+	text-align: center;
+}
+nav ul
+{ 
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+nav ul li
+{
+	display: inline-block;
+}
+nav ul li a
+{
+	background: #ddd;
+	border-radius: 0.4em;
+	color:black;
+	display: inline-block;
+	margin:  0.1em 0.1em;
+	padding: 0.3em 0.3em;
+	font-size: 1.4em;
+	text-decoration: none;
+}
+nav ul li a:hover
+{
+	background: #000;
+	color: #eee; 
+	transform: scale(1.1);
+}
+
+/*Pie de pagina*/
+footer
+{
+	background: #174AEF;
+	padding: 2em;
+}
